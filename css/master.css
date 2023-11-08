@@ -1,0 +1,520 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: #212832;
+}
+@media(max-width:1200px){
+    .container{
+        width: 900px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+
+@media(max-width:550px){
+    .container{
+        width: 540px;
+    }
+}
+
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: flex;
+  background-color: #212832;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.custom{
+    position: relative;
+    top: 15%;
+}
+.main .custom h5{
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    color: #d5dfe1;
+}
+
+@media(max-width:550px){
+    .main .custom h5{
+        font-size: 15px;
+    }
+}
+
+.main .custom h1{
+    padding: 20px;
+    margin: 10px;
+    font-size: 80px;
+    color: #b99855;
+}
+
+@media(max-width:550px){
+    .main .custom h1{
+        font-size: 40px;
+    }
+}
+
+.main .custom p{
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: #d5dfe1;
+}
+
+@media(max-width:550px){
+    .main .custom p{
+        font-size: 13px;
+    }
+}
+
+.main .custom button{
+    position: absolute;
+    left: 40px;
+    padding-bottom: 35px;
+    margin: 20px;
+    outline: none;
+    width: 200px;
+    height: 25px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: #212832;
+    color: #b99855;
+    cursor: pointer;
+    border: 2px solid #d5dfe1;
+}
+
+@media(max-width:550px){
+    .main .custom button{
+        width: 120px;
+        height: 12px;
+        font-size: 18px;
+        padding-bottom: 25px;
+        border: 2px solid #d5dfe1;
+    }
+}
+
+.main .custom button a{
+    text-decoration: none;
+    color: #b99855;
+}
+/*=========our projects======*/
+.our_projects{
+    background-color: #938265;
+    padding: 30px 0;
+}
+
+.our_projects h2{
+    text-align: center;
+    color:#212832;
+    font-size: 38px;
+    padding: 30px;
+}
+
+@media(max-width:550px){
+    .our_projects h2{
+        font-size: 20px;
+        color:#212832;
+    }
+}
+
+.our_projects p{
+    text-align: center;
+    color: #d5dfe1;
+    font-size: 18px;
+    padding: 12px;
+}
+
+@media(max-width:550px){
+    .our_projects p{
+    font-size: 12px;
+    }
+}
+
+.our_projects h3{
+    text-align: center;
+    color:#212832;
+    font-size: 38px;
+    padding: 30px;
+}
+
+@media(max-width:550px){
+    .our_projects h3{
+        font-size: 25px;
+    }
+}
+
+.our_projects .image{
+    display: flex;
+    padding:20px 60px ;
+}
+
+@media(max-width:550px){
+    .our_projects .image{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 30px;
+    }
+}
+
+.our_projects .image img{
+    width: 260px;
+    height: 220px;
+    padding-right: 30px;
+    
+}
+
+.our_projects .image h4{
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    color:#212832;
+}
+
+@media(max-width:550px){
+    .our_projects .image h4{
+        font-size: 12px;
+    }
+}
+
+/*=========office=========*/
+
+.office{
+    background-color: #212832;
+    padding: 30px 0;
+}
+
+.office h3{
+    text-align: center;
+    color: #b99855;
+    font-size: 38px;
+    padding: 30px;
+}
+
+@media(max-width:550px){
+    .office h3{
+        font-size: 25px;
+    }
+}
+
+.office .image{
+    display: flex;
+    padding:20px 50px ;
+}
+
+@media(max-width:550px){
+    .office .image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+        text-align: center;
+    }
+}
+
+.office .image img{
+    width: 255px;
+    height: 220px;
+    padding-right: 0px;
+    border: 20px solid #938265;
+}
+
+.office .image h4,h5{
+    color: #938265;
+    text-align: center;
+    padding: 12px;
+}
+
+.office .image p{
+    color: #d5dfe1;
+    font-size: 13px;
+    text-align: center;
+}
+
+/*===========our guide===========*/
+
+.our_guide{
+    background-color: #938265;
+    padding: 150px 0;
+}
+
+@media(max-width:550px){
+    .our_guide{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+}
+
+.our_guide div{
+    text-align: center;
+}
+
+.our_guide h2{
+    color: #212832;
+    font-size: 40px;
+    padding: 28px;
+}
+
+@media(max-width:550px){
+    .our_guide h2{
+        font-size: 30px;
+    }
+}
+
+.our_guide p{
+    color: #d5dfe1;
+    font-size:26px;
+}
+
+@media(max-width:550px){
+    .our_guide p{
+        font-size: 20px;
+        margin-inline: 20px;
+    }
+}
+
+.our_guide button {
+    outline: none;
+    width: 220px;
+    height: 40px;
+    background-color:#212832;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+@media(max-width:550px){
+    .our_guide button {
+        width: 120px;
+        height: 25px;
+    }
+}
+
+.our_guide button a{
+    text-decoration: none;
+    color: #d5dfe1;
+    font-size: 20px;
+}
+
+@media(max-width:550px){
+    .our_guide button a{
+        font-size: 15px;
+    }
+}
+
+/*============pros===========*/
+
+.pros{
+    background-image: url("../img/7.jpeg");
+    width: 100%;
+    height: 450px;
+}
+
+.pros .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.pros .overlay h2{
+    padding-top: 150px;
+    font-size: 38px;
+    color: #b99855;
+}
+
+@media(max-width:550px){
+    .pros .overlay h2{
+        font-size: 30px;
+    }
+}
+
+.pros .overlay .part{
+    margin-top:20px ;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+}
+
+.pros .overlay .part div{
+    width: 25%;
+}
+
+.pros .overlay .part div h3{
+    color:#d5dfe1;
+    font-size: 40px;
+}
+
+@media(max-width:550px){
+    .pros .overlay .part div h3{
+        font-size: 25px;
+    }
+}
+
+.pros .overlay .part div p{
+    margin-top: 5px;
+    color: #b99855;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media(max-width:550px){
+    .pros .overlay .part div p{
+        font-size: 10px;
+    }
+}
+
+/*============client feedback========*/
+
+.client_feedback{
+    height:800px;
+    background-color:#938265;
+}
+
+.client_feedback h1{
+    text-align: center;
+    font-size: 38px;
+    color: #212832;
+    padding-top: 40px;
+}
+
+@media(max-width:550px){
+    .client_feedback h1{
+        font-size: 25px;
+        text-align: center;
+        margin-right: 120px;
+    }
+}
+
+.client_feedback div{
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-bottom: -15px;
+    text-align: center;
+    width: 80%;
+    height:150px;
+    background-color: #212832;
+    border-radius: 15px;
+}
+
+@media(max-width:550px){
+    .client_feedback div{
+        margin-left: 30px;
+        width: 350px;
+        height: 150px;
+    }
+}
+
+.client_feedback div p{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #d5dfe1;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+@media(max-width:550px){
+    .client_feedback div p{
+        font-size: 10px;
+    }
+}
+
+.client_feedback div h3{
+    color: #b99855;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+@media(max-width:550px){
+    .client_feedback div h3{
+    font-size: 10px;
+    }
+}
+
+/*==========Contact Us========*/
+
+.contact_us{
+    position: relative;
+    background-color: #212832;
+    height: 500px;
+    display: flex;
+}
+
+
+.contact_us .details{
+    padding-top: 60px;
+    padding-left: 25px;
+}
+
+@media(max-width:550px){
+    .contact_us .details{
+        text-align: center;
+        margin-left: 75px;
+        margin-top: 25px;
+    }
+}
+
+.contact_us .main_image{
+    position: absolute;
+    right: 0;
+}
+
+@media(max-width:550px){
+    .contact_us .main_image img{
+        display: none;
+    }
+}
+
+.contact_us .details h4{
+    font-size: 18px;
+    color:#d5dfe1;
+}
+
+@media(max-width:550px){
+    .contact_us .details h4{
+        padding-bottom: 7px;
+    }
+}
+
+.contact_us .details h1{
+    font-size: 33px;
+    padding:16px 0;
+    color:#b99855;
+}
+
+.contact_us .details p{
+    color:#d5dfe1;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contact_us .details h3{
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color:#b99855;
+}
+
+.contact_us .details h2{
+    font-size: 25px;
+    color:#b99855;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
